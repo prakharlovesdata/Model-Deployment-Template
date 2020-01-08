@@ -2,12 +2,12 @@ include *.txt
 include *.md
 include *.cfg
 include *.pkl
-recursive-include ./Klassifer/*
+recursive-include ./Klassifier/*
 
-include Klassifer/datasets/train.csv
-include Klassifer/datasets/test.csv
-include Klassifer/trained_models/*.pkl
-include Klassifer/VERSION
+include Klassifier/datasets/train.csv
+include Klassifier/datasets/test.csv
+include Klassifier/trained_models/*.pkl
+include Klassifier/VERSION
 
 include ./requirements.txt
 exclude *.log

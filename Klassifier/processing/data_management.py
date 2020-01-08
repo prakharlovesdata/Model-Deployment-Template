@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.externals import joblib
 from sklearn.pipeline import Pipeline
 
-from Klassifer.config import config
+from Klassifier.config import config
 # from config import __version__ as _version
 
 import logging

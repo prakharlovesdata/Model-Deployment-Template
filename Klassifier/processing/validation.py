@@ -1,4 +1,4 @@
-from Klassifer.config import config
+from Klassifier.config import config
 
 import pandas as pd
 
