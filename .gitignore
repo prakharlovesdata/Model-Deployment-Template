@@ -1,5 +1,5 @@
 build/
-Classification.egg-info/
+Klassifer.egg-info/
 dist/
 env/
 __pycache__/

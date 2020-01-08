@@ -3,9 +3,9 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 
 import pipeline
-from classification_model.processing.data_management import (
+from Klassifer.processing.data_management import (
     load_dataset, save_pipeline)
-from classification_model.config import config
+from Klassifer.config import config
 # from classification_model import __version__ as _version
 
 import logging

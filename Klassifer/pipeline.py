@@ -5,7 +5,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 from processing import preprocessing as pp
 
-from classification_model.config import config
+from Klassifer.config import config
 
 import logging
 

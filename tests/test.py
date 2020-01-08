@@ -1,7 +1,7 @@
 import math
 
-from classification_model.predict import make_prediction
-from classification_model.processing.data_management import load_dataset
+from Klassifer.predict import make_prediction
+from Klassifer.processing.data_management import load_dataset
 
 
 def test_make_single_prediction():

@@ -3,9 +3,9 @@ import pathlib
 
 import pandas as pd
 
-import classification_model
+import Klassifer
 
-PACKAGE_ROOT = pathlib.Path(classification_model.__file__).resolve().parent
+PACKAGE_ROOT = pathlib.Path(Klassifer.__file__).resolve().parent
 
 
 

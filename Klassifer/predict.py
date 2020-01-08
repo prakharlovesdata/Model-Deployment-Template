@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
 
-from classification_model.processing.data_management import load_pipeline
-from classification_model.config import config
-from classification_model.processing.validation import validate_inputs
+from Klassifer.processing.data_management import load_pipeline
+from Klassifer.config import config
+from Klassifer.processing.validation import validate_inputs
 
 import logging
 import typing as t

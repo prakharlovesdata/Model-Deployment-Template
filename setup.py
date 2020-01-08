@@ -7,7 +7,7 @@ from setuptools import find_packages, setup
 
 
 # Package meta-data.
-NAME = 'classification_model'
+NAME = 'Klassifer'
 DESCRIPTION = 'Train and deploy regression model.'
 URL = 'https://github.com/prakharlovesdata'
 EMAIL = 'prakhar23sep@gmail.com'
@@ -49,7 +49,7 @@ with open(PACKAGE_DIR / 'VERSION') as f:
 
 # Where the magic happens:
 setup(
-    name='Classification',
+    name='Klassifer',
     version=about['__version__'],
     description=DESCRIPTION,
     long_description=long_description,
