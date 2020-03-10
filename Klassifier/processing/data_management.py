@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.externals import joblib
 from sklearn.pipeline import Pipeline
 
+# import importlib
 from Klassifier.config import config
 # from config import __version__ as _version
 
@@ -10,6 +11,7 @@ import typing as t
 
 
 _logger = logging.getLogger(__name__)
+# config = importlib.import_module("Klassifier.config")
 
 
 def load_dataset(*, file_name: str
@@ -40,6 +42,7 @@ def load_pipeline(*, file_name: str
     """Load a persisted pipeline."""
 
     file_path = config.TRAINED_MODEL_DIR / file_name
+    print(file_path)
     trained_model = joblib.load(filename=file_path)
     return trained_model
 

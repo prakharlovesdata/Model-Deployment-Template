@@ -1,6 +1,8 @@
+# import sys
+# sys.path.insert(0, r'Klassifier/processing')
+
 import numpy as np
 import pandas as pd
-
 from Klassifier.processing.data_management import load_pipeline
 from Klassifier.config import config
 from Klassifier.processing.validation import validate_inputs

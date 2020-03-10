@@ -5,7 +5,8 @@ import pandas as pd
 
 import Klassifier
 
-PACKAGE_ROOT = pathlib.Path(Klassifier.__file__).resolve().parent
+# PACKAGE_ROOT = pathlib.Path(Klassifier.__file__).resolve().parent
+PACKAGE_ROOT = pathlib.Path.cwd() / "Klassifier"
 
 
 
